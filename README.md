@@ -172,24 +172,20 @@ Generate comprehensive reports for compliance, billing, and analysis. 📋
 
 ### 🎬 Scenario 1: New Project Kickoff
 1. Project manager creates project with required skills 📝
-2. System identifies available team members with matching skills 🔍
-3. Resources are booked for project duration 📅
-4. Team members track time via timesheet entries ⏰
-5. Real-time reports show project progress and resource utilization 📊
+2. Resources are booked for project duration 📅
+3. Real-time reports show project progress and resource utilization 📊
 
 ### 🏖️ Scenario 2: Leave Management
-1. Employee requests leave through the system 📝
+1. Manager sets leave through the system 📝
 2. System automatically blocks availability for those dates 🚫
-3. Manager receives notification for approval 📩
-4. Resource booking system prevents conflicts during leave period ⚠️
-5. Payroll integration receives accurate leave records 💰
+3. Resource booking system prevents conflicts during leave period ⚠️
+4. Payroll integration receives accurate leave records 💰
 
 ### ⚖️ Scenario 3: Resource Optimization
 1. Admin views real-time utilization dashboard 👀
 2. Identifies underutilized team members (bench time) 🔍
 3. Reassigns resources to high-priority projects 🔄
 4. Tracks impact on overall team productivity 📈
-5. Historical data informs future hiring decisions 📋
 
 ## ⚡ Performance Capabilities
 
@@ -203,13 +199,6 @@ Generate comprehensive reports for compliance, billing, and analysis. 📋
 - Live availability updates across all resource bookings 🔄
 - Instant conflict detection for scheduling ⚠️
 - Real-time dashboard updates for management insights 📊
-- Automated notifications for critical events 🔔
-
-### 🛡️ Data Integrity
-- Comprehensive validation using Pydantic models ✅
-- Transaction-safe operations for critical bookings 🔒
-- Audit trails for all resource changes 📝
-- Automatic rollback for failed operations 🔄
 
 ## 🔗 Integration Capabilities
 
@@ -221,14 +210,6 @@ The system is designed for enterprise integration:
 - **CSV/Excel Export** 📄 - Seamless data exchange with existing tools
 - **Prometheus Metrics** 📊 - Integration with monitoring infrastructure
 
-## 🏆 Why Choose This HRMS
-
-- **Developer-First Design** 👨‍💻 - Built by developers who understand modern workflows
-- **Proven Technologies** ⚡ - FastAPI, MongoDB, and Docker provide enterprise reliability
-- **Active Development** 🔄 - Continuously updated with new features and optimizations
-- **Open Architecture** 🔓 - Extensible design allows custom integrations
-- **Real-World Tested** ✅ - Battle-tested in production environments
-
 ---
 
-**Ready to transform your resource management?** 🚀 Explore the interactive API documentation at `http://<your-ip>:7007/docs` to see the full capabilities in action. 🎯✨
+Explore the interactive API documentation at `http://<your-ip>:7007/docs` to see the full capabilities in action. 🎯✨
